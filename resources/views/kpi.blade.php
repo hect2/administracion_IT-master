@@ -8,7 +8,7 @@
 <div class="mdl-layout mdl-js-layout mdl-layout--fixed-drawer mdl-layout--fixed-header is-small-screen">
 
     @include('layouts.menu')
-
+{{--holaaaaaaaaaaaaaaaa todos--}}
     <main class="mdl-layout__content" ng-controller="KPICtrl" ng-cloak >
 
          <!-- primera linea  -->

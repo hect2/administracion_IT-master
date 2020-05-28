@@ -1,5 +1,5 @@
 @extends('layouts.app')
-
+{{--Esta es una prueba--}}
 <script>
     var csrfToken ="{{csrf_token()}}";
 </script>
@@ -15,7 +15,7 @@
         <div class="row p-raw">
             <div class="col-md-4 trending">
                 <div class="mdl-card p-s">
-                    <form name="f1"> 
+                    <form name="f1">
                         <ul>
                             <li>
                                 <div class="circle">
@@ -47,10 +47,10 @@
                                 <label for="Oracle"><i class="fa fa-check"></i></label>
                             </li>
                         </ul>
-                    </form> 
+                    </form>
                 </div>
             </div>
-            
+
             <div class="col-md-4 trending">
                 <div class="mdl-card__title">
                     <h2 class="mdl-card__title-text">Filtros</h2>
@@ -72,7 +72,7 @@
                     </form>
                 </div>
             </div>
-            
+
             <div class="col-md-4 trending">
                 <div class="mdl-card__title">
                     <h2 class="mdl-card__title-text">Resumen</h2>
@@ -183,11 +183,11 @@
                     <h2 class="mdl-card__title-text">Ventas diarias</h2>
                 </div>
                 <div class="mdl-card">
-                    <canvas id="line-chart" width="800" height="200"></canvas>  
+                    <canvas id="line-chart" width="800" height="200"></canvas>
                 </div>
             </div>
         </div>
-       
+
        <!-- sexta linea -->
         <div class="row p-raw">
             <div class="col-md-6 trending">
@@ -209,7 +209,7 @@
         </div>
 
     </main>
-    
+
 </div>
 
 @endsection
